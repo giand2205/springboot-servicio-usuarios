@@ -12,11 +12,12 @@ import javax.persistence.Table;
 import java.io.Serial;
 import java.io.Serializable;
 
-@Getter
+/*@Getter
 @Setter
 @Entity
-@Table(name = "roles")
+@Table(name = "roles")*/
 public class Role implements Serializable {
+/*
 
     @Serial
     private static final long serialVersionUID = -3675413892100199345L;
@@ -28,4 +29,5 @@ public class Role implements Serializable {
     @Column(unique = true, length = 30)
     private String nombre;
 
+*/
 }

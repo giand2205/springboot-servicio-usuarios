@@ -18,11 +18,12 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.util.List;
 
-@Getter
+/*@Getter
 @Setter
 @Entity
-@Table(name = "usuarios")
+@Table(name = "usuarios")*/
 public class Usuario implements Serializable {
+/*
 
     @Serial
     private static final long serialVersionUID = 6075133297865598789L;
@@ -52,4 +53,5 @@ public class Usuario implements Serializable {
     )
     private List<Role> roles;
 
+*/
 }

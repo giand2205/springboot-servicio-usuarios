@@ -1,7 +1,7 @@
 package com.springboot.app.usuarios;
 
-import com.springboot.app.usuarios.models.entity.Role;
-import com.springboot.app.usuarios.models.entity.Usuario;
+import com.springboot.app.commons.usuarios.models.entity.Role;
+import com.springboot.app.commons.usuarios.models.entity.Usuario;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
